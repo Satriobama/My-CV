@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+
+    <style>
+        /* Reset and Fonts */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #4a65ff 10%, #a4b1f7 100%);
+            color: #444;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 700px;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: left;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .profile img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid #2e2e2e;
+        }
+
+        .profile-text {
+            text-align: left;
+        }
+
+        .profile h1 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 28px;
+            color: #495dcf;
+        }
+
+        .profile p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        .contact-info p {
+            font-size: 14px;
+            margin: 5px 0;
+            color: #444;
+        }
+
+        .about, .experience, .education, .skills {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #4a65ff;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #8194ff;
+            display: inline-block;
+            padding-bottom: 3px;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #444;
+            margin-top: 5px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .skills ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-top: 10px;
+        }
+
+        .skills li {
+            font-size: 14px;
+            padding: 5px 10px;
+            background-color: #4a65ff;
+            color: #ffffff;
+            border-radius: 20px;
+            transition: transform 0.2s;
+        }
+
+        .skills li:hover {
+            transform: scale(1.1);
+            background-color: #2e4bbd;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Profile Section -->
+        <section class="profile">
+            <img src="deepcold.JPG" alt="Profile Picture">
+            <div class="profile-text">
+                <h1>MUHAMMAD SATRIO BAMAPUTRA</h1>
+                <p>PROGRAMMER | JAKARTA</p>
+                <div class="contact-info">
+                    <p><span>📧</span> satrio0878@gmail.com</p>
+                    <p><span>📞</span> +62 878-7857-1492</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p>Mahasiswa Universitas Gunadarma semester 4 . Berpengalaman dalam membuat website dan designing. Sangat suka menganalisa dan bisa menggunakan SQL dan Photoshop.
+                Saat menempuh pendidikan di SMK, memberikan dasar yang kuat dalam pengembangan perangkat lunak dan pemahaman mendalam tentang konsep-konsep pemrograman. 
+                Selama masa studi di SMK, saya telah mempelajari berbagai bahasa pemrograman seperti Java, C#, HTML, PHP dan MySQL, 
+                serta mengembangkan beberapa proyek aplikasi sederhana yang telah memberikan saya pengalaman praktis dalam Programming.
+            </p>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>WEBSITE DESIGNER (Intern) - PT. Matata Edu Inovasi</h3>
+                <p>(2021)</p>
+                <p>Aplikasi ( web based / mobile) video streaming dengan module berlangganan (subscription).</p>
+            </div>
+            <div class="job">
+                <h3>PROGRAMMER AND DESIGN</h3>
+                <p>(2020 - 2022)</p>
+                <p>Clinic Website (assignment)</p>
+                <p>Java Application - Koperasi (assignment)</p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <div class="school">
+                <h3>MADRASAH TSANAWIYAH NEGERI 22</h3>
+                <p>Jakarta | (2016 - 2019)</p>
+            </div>
+            <div class="school">
+                <h3>SMK NEGERI 24 JAKARTA</h3>
+                <p>Jakarta | (2019 - 2022)</p>
+                <p>Rekayasa Perangkat Lunak</p>
+            </div>
+            <div class="school">
+                <h3>UNIVERSITAS GUNADARMA</h3>
+                <p>Depok | (2022 - Now)</p>
+                <p>S1-Sistem Informasi</p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Graphic Design</li>
+                <li>Web Design</li>
+                <li>Database (SQL)</li>
+                <li>Software engineering</li>
+            </ul>
+        </section>
+
+        <!-- Language Section -->
+        <section class="education">
+            <h2>Language</h2>
+            <div class="school">
+                <h3>Indonesia</h3>
+                <h3>English</h3>
+                <h3>Japaneese (Basic)</h3>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>
