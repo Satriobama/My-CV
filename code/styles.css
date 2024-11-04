@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /* background: linear-gradient(135deg, #4a65ff 10%, #a4b1f7 100%); */
+    background-image: url('../image/fuji.jpg');
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.title{
+    align-items: center;
+    color: #495dcf;
+    text-align: center;
+    gap: 20px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.profile img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 4px solid #2e2e2e;
+}
+
+.profile-text {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.profile h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: #495dcf;
+}
+
+.profile p {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-info p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #444;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.h2-1{
+    text-align: center;
+}
+
+.h2-2{
+    text-align: left;
+}
+
+p.justify {
+    text-align: justify;
+}
+
+.skills{
+    margin-bottom: 20px;
+}
+
+.skills ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.skills li {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #4a65ff;
+    color: #ffffff;
+    border-radius: 15px;
+    transition: transform 0.2s;
+}
+
+.skills li:hover {
+    transform: scale(1.1);
+    background-color: #2e4bbd;
+}
+
+.button {
+    background-color: #288cff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+  
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #288cff;
+    padding: 16px 32px;
+    font-size: 16px;
+}
+  
+.button1:hover {
+    background-color: #288cff;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #288cff;
+    padding: 10px 28px;
+    font-size: 12px;
+}
+  
+.button2:hover {
+    background-color: #288cff;
+    color: white;
+}
